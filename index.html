@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ujjwal-Fitness - The best fitness gym in the town</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="timer.js"></script>
+        <link rel="stylesheet" href="utils.css">
+    </head>
+    <body class='overflow-x-hidden'>
+        <div class="container mx-auto">
+            <header>
+                <nav class="flex justify-between">
+                    <div class="logo font-bold flex items-center text-blue">Ujjwal-Fitness</div>
+                    <ul class="navbar flex items-center">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact Us</li>
+                        <li><button class="btn">Join Now</button></li>
+                    </ul>
+                </nav>
+                <hr>
+            </header>
+            <main class="min-h-screen">
+                <section class="section1">
+                    <div class="flex">
+                        <div class="topleft flex flex-col justify-center px-2">
+                            <div class=" text-center">
+                                <img class="dumbellimg" src="dumbell.png" alt="">
+                            </div>
+                            <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                        </div>
+                        <div class="topright flex justify-center">
+                            <img class="gymimg" src="gym.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                <section class="section2">
+                    <h1 class="text-center my-2">Pricing</h1>
+                    <div class="boxes flex justify-center">
+                        <div class="box">
+                            <h2>Basic</h2>
+                            <ul>
+                                <li class="highlighted">₹700/month</li>
+                                <li>All gym Equipments</li>
+                                <li>No cardio training</li>
+                                <li><button class="btn">Signup Now</button></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h2>Pro</h2>
+                            <ul>
+                                <li class="highlighted">₹1000/month</li>
+                                <li>All <i>Basic</i> features</li>
+                                <li>Cardio Training is provided</li>
+                                <li><button class="btn">Signup Now</button></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h2>Enterprise</h2>
+                            <ul>
+                                <li class="highlighted">₹3000/month</li>
+                                <li>All <i>Pro</i> features</li>
+                                <li>Personal training & diet plan</li>
+                                <li><button class="btn">Signup Now</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <hr>
+                <section class="section3">
+                    <h1 class="text-center my-2">Compare Plans</h1>
+                    <div class="container plantable">
+                        <table class="table text-center">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Basic</th>
+                                    <th>Pro</th>
+                                    <th>Enterprise</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" class="text-start">Public Gym</th>
+                                    <td>&#10004</svg></td>
+                                    <td>&#10004</svg></td>
+                                    <td>&#10004</svg></td>
+                                </tr>
+                                <tr>
+                                <th scope="row" class="text-start">Private Training</th>
+                                    <td>-</td>
+                                    <td>-</svg></td>
+                                    <td>&#10004</svg></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-start">Permission for equipments</th>
+                                    <td>-</svg></td>
+                                    <td>&#10004</svg></td>
+                                    <td>&#10004</svg></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-start">Offers on Products</th>
+                                    <td>-</svg></td>
+                                    <td>-</svg></td>
+                                    <td>&#10004</svg></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="text-start">Special training</th>
+                                    <td>-</svg></td>
+                                    <td>-</svg></td>
+                                    <td>&#10004</svg></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <hr>
+            </main>
+            <footer>
+                Copyright &copy; Ujjwal-Fitness.com | All rights reserved
+            </footer>
+        </div>
+    </body>
+</html>
